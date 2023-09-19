@@ -7,12 +7,12 @@ public class Desafio07 {
     double pre, pred;
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Informe o preço do produto:");
+    System.out.println("Informe o valor inicial do produto: ");
     pre = sc.nextInt();
 
     pred = pre * 0.95;
 
-    System.out.println("\n Preço do produto com 5% de desconto:" + pred);
+    System.out.println("\n Valor do produto com 5% de desconto: " + pred);
 
   }
 

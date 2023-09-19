@@ -8,15 +8,15 @@ public class Desafio10 {
 
     Scanner sc = new Scanner(System.in);
 
-    System.out.print("Informe a quantidade de Km percorrido:");
+    System.out.print("Informe a distância percorrida em KM: ");
     Kmp = sc.nextDouble();
 
-    System.out.print("Informe a quantidade de dias alugados:");
+    System.out.print("Informe a quantidade de dias alugados: ");
     Dal = sc.nextDouble();
 
     pre = (Kmp * 0.15) + (Dal * 60);
 
-    System.out.println("Preço a pagar:" + " " + "R$" + pre);
+    System.out.println("Preço a pagar é de " + " " + "R$" + pre);
   }
 
   public static void main(String[] args) {

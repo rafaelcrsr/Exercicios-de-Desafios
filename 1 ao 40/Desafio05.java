@@ -7,11 +7,12 @@ public class Desafio05 {
     double num1, res;
 
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Informe o valor em reais:");
+    System.out.println("Informe o valor em reais: ");
     num1 = scanner.nextInt();
 
     res = num1 / 5;
-    System.out.println("O valor em doletas:" + " " + "$" + res);
+    System.out.println("É equivalente a " + " " + "$" + res + " dólares");
+
   }
 
   public static void main(String[] args) {

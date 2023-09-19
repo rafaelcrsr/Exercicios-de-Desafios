@@ -16,6 +16,7 @@ public class Desafio01 {
     triplo = numero * 3;
     quadrado = Math.sqrt(numero);
     System.out.println(
+    
     "\nO dobro de " + numero + " é: " + dobro + "\n" 
     + "O Triplo de " + numero + " é: "+ triplo + " " 
     + "\nA raiz de " + numero + " é: " + quadrado);
@@ -27,5 +28,6 @@ public class Desafio01 {
     Desafio01 desafio01;
     desafio01 = new Desafio01();
     desafio01.Executar();
+  
   }
 }

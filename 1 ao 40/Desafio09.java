@@ -8,11 +8,11 @@ public class Desafio09 {
 
     Scanner sc = new Scanner(System.in);
 
-    System.out.println("Informe a temperatura em Celcius:");
+    System.out.println("Informe a temperatura em Celcius: ");
     tc = sc.nextDouble();
 
     tf = (tc * 1.8) + 32;
-    System.out.println("Temperatura em Fahrenheit:" + " " + tf);
+    System.out.println("Temperatura em Fahrenheit: " + " " + tf);
   }
   public static void main(String[] args) {
     Desafio09 desafio09;

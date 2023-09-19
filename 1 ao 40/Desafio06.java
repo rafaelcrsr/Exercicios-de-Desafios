@@ -8,22 +8,17 @@ public class Desafio06 {
 
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Informe o a altura em metros:");
+    System.out.println("Informe o a altura em metros: ");
     al = scanner.nextInt();
 
-    System.out.println("Informe o largura em metros:");
+    System.out.println("Informe o largura em metros: ");
     lar = scanner.nextInt();
 
     ar = lar * al;
-    /*
-    * 2m² = 1L de tinta
-    * ar = art
-    * art * 2 = ar *1
-    * art = ar / 2
-    */
-    System.out.println("\n Área da parede :" + " " + ar + " " + "m²");
+
+    System.out.println("\n  Área da parede :" + " " + ar + " " + "m²");
     art = ar / 2;
-    System.out.println("\n O quantidade de tinta necessária:" + " " + art + " " + "L");
+    System.out.println("\n A quantidade de tinta necessária:" + " " + art + " " + "L");
 
   }
 

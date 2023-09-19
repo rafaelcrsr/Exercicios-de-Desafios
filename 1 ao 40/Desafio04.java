@@ -7,7 +7,7 @@ public class Desafio04 {
     int num1, res;
 
     Scanner sc = new Scanner(System.in);
-    System.out.println("Informe o valor da tabuada:");
+    System.out.println("Informe o valor da tabuada: ");
     num1 = sc.nextInt();
 
     for (int i = 1; i <= 10; i++) {
